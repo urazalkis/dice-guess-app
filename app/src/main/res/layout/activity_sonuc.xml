@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SonucActivity">
+
+    <ImageView
+        android:id="@+id/imageViewSonuc"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/smile_resim"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textViewSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageViewSonuc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-129dp"
+        android:text="KAZANDINIZ!"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <Button
+        android:id="@+id/buttonTekrarOyna"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewSonuc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-150dp"
+        android:background="#FF5722"
+        android:text="Tekrar Oyna"
+        android:textColor="#3F51B5" />
+</RelativeLayout>

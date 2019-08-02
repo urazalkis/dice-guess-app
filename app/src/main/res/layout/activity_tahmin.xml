@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TahminActivity">
+
+    <TextView
+        android:id="@+id/textViewKalanHak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FF5722"
+        android:text="Kalan Hak:3"
+        android:textColor="#FF5722"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+
+    <EditText
+        android:id="@+id/editTextSayiGir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewKalanHak"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-540dp"
+        android:ems="10"
+        android:hint="Sayı Giriniz"
+        android:inputType="number|textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonTahmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:text="Tahmin ET"
+        android:textColor="#3F51B5"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/editTextSayiGir"
+        android:layout_marginBottom="-70dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewUyari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewKalanHak"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-560dp" />
+
+    <ImageView
+        android:id="@+id/imageViewZar"
+        android:layout_width="131dp"
+        android:layout_height="108dp"
+        app:srcCompat="@drawable/dice_6"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/textViewKalanHak"
+        android:layout_marginBottom="-480dp"
+        />
+</RelativeLayout>
